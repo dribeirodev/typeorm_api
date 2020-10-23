@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "abacaxi",
+    "database": "typeorm",
+    "entities": ["dist/entity/**/*.js"],
+    "logging": false,
+    "synchronize": true
+ }
